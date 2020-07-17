@@ -1,6 +1,10 @@
 .centered {
    text-align: center 
 }
+
+body {
+    background: floralwhite;
+}
 .topnav-centered a.active {
     float: none;
     position: absolute;
