@@ -25,6 +25,14 @@ p.names
     padding-bottom: 15px;
 }
 
+p.heading
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18pt;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
 a.links
 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
