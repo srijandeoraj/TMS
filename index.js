@@ -9,14 +9,12 @@ function openPage(pageName, elmnt, color) {
     // Remove the background color of all tablinks/buttons
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.backgroundColor = "";
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
   
     // Show the specific tab content
     document.getElementById(pageName).style.display = "block";
-  
-    // Add the specific color to the button used to open the tab content
-    elmnt.style.backgroundColor = color;
+    evt.currentTarget.className += " active";
   }
   
   // Get the element with id="defaultOpen" and click on it
