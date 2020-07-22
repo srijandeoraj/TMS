@@ -1,5 +1,9 @@
-.centered {
+.center {
    text-align: center 
+}
+
+body {
+    background: #dbe5ff;
 }
 .topnav-centered a.active {
     float: none;
