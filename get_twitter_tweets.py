@@ -45,11 +45,11 @@ drop_columns = df.drop(columns = ["id", "conversation_id", "created_at", "timezo
 #convert date column to just yyyy-mm-dd
 drop_columns['date'] = pd.to_datetime(drop_columns["date"], format='%Y-%m-%d %H:%M:%S').dt.strftime('%Y-%m-%d')
 
-#combine all the same dates into a row with the tweets in separate columns
-tweets = drop_columns.groupby("date").agg(lambda x: x.tolist())
+
+tweets = drop_columns.groupby("date", as_index= False).agg(lambda x:x.tolist())
+
 tweets_separate = tweets.tweet.apply(pd.Series)
 
-dates = dates[:-1]
-tweets_df= pd.concat([dates.reset_index(drop=True),tweets_separate.reset_index(drop=True)], axis=1)
+tweets_df = pd.concat([tweets["date"],tweets_separate], axis = 1)
 
-tweets_df.to_csv("tweets.csv", index = False)
+tweets_df.to_csv("C.csv", index = False)
