@@ -5,7 +5,13 @@
 
 body 
 {
-    background: #dbe5ff;
+    background: #f8f0c6;
+}
+
+.helvetica title
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
 }
 
 /* Style the tab */
