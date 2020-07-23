@@ -39,7 +39,8 @@ p.body
     font-size: 12pt;
     padding-top: 20px;
     padding-left: 150px;
-    padding-right: 150px;    
+    padding-right: 150px;
+    padding-bottom: 20px;    
 }
 
 
@@ -101,4 +102,15 @@ a.ghub
     padding: 6px 12px;
     border: 1px solid #eaf1f6;
     border-top: none;
+}
+
+.vid
+{
+    text-align: center;
+}
+
+.picture
+{
+    padding-left: 150px;
+    padding-right: 150px;
 }
