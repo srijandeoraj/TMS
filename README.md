@@ -1,1 +1,1 @@
-https://srijandeoraj.github.io/TMS/
+https://srijandeoraj.github.io/TMS/index.html
