@@ -27,7 +27,6 @@ c.Search = keyword
 c.Limit = 50
 c.Lang = 'en'
 
-
 df = pd.DataFrame()
 for i in range(len(dateList)-1):
     dayTweets = []
