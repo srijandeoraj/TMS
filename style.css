@@ -22,7 +22,7 @@ p.names
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: medium;
     padding-left: 150px;
-    padding-bottom: 15px;
+
 }
 
 p.heading
@@ -62,8 +62,8 @@ a.ghub
 /* Style the tab */
 .tab 
 {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 300px;
+    padding-right: 260px;
     overflow: hidden;
     background-color: #FFFFFF;
 }
@@ -114,3 +114,4 @@ a.ghub
     padding-left: 150px;
     padding-right: 150px;
 }
+
