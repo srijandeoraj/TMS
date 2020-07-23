@@ -33,11 +33,29 @@ p.heading
     padding-left: 150px;
 }
 
+p.body
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;    
+}
+
+
 a.links
 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: medium;
     color: #000000;
+}
+
+a.ghub
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+    color: #2b2b2b;
+    padding-left: 150px;
 }
 
 /* Style the tab */
