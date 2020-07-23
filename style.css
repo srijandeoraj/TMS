@@ -50,6 +50,14 @@ a.links
     color: #000000;
 }
 
+a.ghub
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: medium;
+    color: #2b2b2b;
+    padding-left: 150px;
+}
+
 /* Style the tab */
 .tab 
 {
